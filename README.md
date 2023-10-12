@@ -22,10 +22,14 @@ To structure the code and ensure replicability, we employ the "targets" package 
 
 
 The entire code can initially be run using the command 
+```
 targets::tar_make()
+```
 
 An overview of the pipeline can be obtained using
+```
 targets::tar_glimpse()
+```
 
 
 ## Contribution
