@@ -7,12 +7,18 @@ This repository contains a versatile version of the drought-impact text-mining m
 
 The code provided here is a generalized and well-documented adaptation of the original code used in Sodoge et al. (2023). Its purpose is to streamline the process of extracting socio-economic drought impacts from newspaper text data and make it easily adaptable for different case studies. This repository eliminates the need to grapple with project-specific code, enabling swift implementation and replication.
 
+
 ## Key Features
 
 - **Simplified Adaptation**: Easily adapt the approach to different datasets and case studies.
 - **Robust Documentation**: Comprehensive documentation to assist users in understanding and implementing the code.
 - **Replicability**: Designed with replication in mind, facilitating reproducible research.
 - **Modular Structure**: The code is structured using the "targets" package in R, providing a clear and organized pipeline with separate functional components for tasks like impact classification and location extraction.
+
+
+![Pipeline structure](pipeline_structure.jpg)
+
+Caption: Structure of the pipeline to extract impacts and locations of droughts from newspaper articles. Please consult Sodoge et al. (2023) for full details.
 
 ## Getting Started
 
@@ -36,4 +42,8 @@ targets::tar_glimpse()
 
 Contributions and feedback are welcome. Feel free to open issues, submit pull requests, or reach out to the maintainers for any questions or suggestions.
 
+
+## Reference
+
+Sodoge, Jan, Christian Kuhlicke, and Mariana Madruga de Brito. "Automatized spatio-temporal detection of drought impacts from newspaper articles using natural language processing and machine learning." Weather and Climate Extremes (2023): 100574.
 
